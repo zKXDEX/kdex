@@ -417,6 +417,10 @@ img {
   border-radius: .5rem;
 }
 
+.about__text{
+  white-space: pre-wrap;
+}
+
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
