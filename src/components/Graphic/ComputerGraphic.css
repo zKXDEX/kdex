@@ -1,0 +1,26 @@
+.computer_graphic svg {
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+  }
+  
+  .computer_graphic .code_graph path {
+    animation: float 4s ease-in-out infinite;
+    transition: all .3s ease-out;
+  }
+  
+  .computer_graphic .code_graph:hover path:not(#path3776):not(#path3780):not(#path3772) {
+    fill: var(--border-shadow-accent-color)!important;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
