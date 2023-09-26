@@ -1,0 +1,160 @@
+.skills_section {
+    padding: 0 0 100px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .skills_section {
+      padding: 0;
+    }
+  }
+  
+  .skills_section p {
+    max-width: 700px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section p {
+      margin: 0 auto 1rem;
+    }
+  }
+  
+  .skills_section p a {
+    color: var(--shadow-accent-color);
+    text-decoration: none;
+  }
+  
+  .skills_section p a:hover {
+    text-decoration: underline;
+  }
+  
+  .skills_section h1 {
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 32px;
+  }
+  
+  @media (min-width: 380px) {
+    .skills_section h1 {
+      font-size: 39px;
+    }
+  }
+  
+  @media (min-width: 1140px) {
+    .skills_section h1 {
+      font-size: 60px;
+    }
+  }
+  
+  .skills_section h1 span {
+    display: inline-block;
+    transition: all .3s ease-out;
+  }
+  
+  .skills_section h1 span.space {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .skills_section h1 span:hover {
+    color: var(--shadow-accent-color);
+    animation: rubberBand;
+    animation-duration: 1s;
+  }
+  
+  .skills_section h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: .7;
+    margin-bottom: 0;
+    font-size: 15px;
+    padding-right: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section h2 {
+      font-size: 18px;
+      padding-right: 1rem;
+    }
+  }
+  
+  .skills_section .skills_brands {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section .skills_brands {
+      max-width: 1000px;
+      justify-content: center;
+    }
+  }
+  
+  .skills_section .skills_brands div {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 16px;
+    width: 33%;
+  }
+  
+  @media (min-width: 430px) {
+    .skills_section .skills_brands div {
+      font-size: inherit;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section .skills_brands div {
+      width: auto;
+    }
+  }
+  
+  .skills_section .skills_brands div p {
+    margin: 0;
+  }
+  
+  @media (min-width: 430px) {
+    .skills_section .skills_brands div p {
+      margin: 0 0 0 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section .skills_brands div p {
+      margin: 0;
+    }
+  }
+  
+  .skills_section .skills_brands div svg {
+    width: 50px;
+    height: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills_section .skills_brands div {
+      display: block;
+      margin: 0 30px 3rem;
+      font-size: inherit;
+    }
+  
+    .skills_section .skills_brands div svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  @media (min-width: 1010px) {
+    .skills_section .skills_brands div svg {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  
