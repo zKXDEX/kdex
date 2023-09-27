@@ -59,10 +59,10 @@ const Contact = ({ fullpageState }) => {
       mapSamples: 16000,
       mapBrightness: 3.2,
       baseColor: [0.5, 0.5, 0.5],
-      markerColor: [251 / 255, 100 / 255, 21 / 255],
+      markerColor: [255 / 255, 0 / 255, 60 / 255],
       glowColor: [0.08, 0.08, 0.08],
       markers: [
-        { location: [37.7595, -122.4367], size: 0.03 },
+        { location: [40.7595, -1.4367], size: 0.05 },
       ],
       onRender: (state) => {
         if (!pointerInteracting.current) {
@@ -130,9 +130,9 @@ const Contact = ({ fullpageState }) => {
           <p>What would you do if you had a software expert available at your fingertips?</p>
           <div>Want to start new project? Or just say hey.</div>
           <div>
-            You can send me a message on <a target="_blank" rel="noopener noreferrer" className="insta" href="https://discord.com/invite/AckXPG63/">Discord</a>.
+            You can send me a message on <a target="_blank" rel="noopener noreferrer" className="insta" href="https://discord.gg/9M7Qjwc6CM">Discord</a>.
             <h1>
-              <a target="_blank" rel="noopener noreferrer" href="mailto:deiividdlk@gmail.com">
+              <a className='link' target="_blank" rel="noopener noreferrer" href="mailto:deiividdlk@gmail.com">
                 deiividdlk@gmail.com
               </a>
             </h1>

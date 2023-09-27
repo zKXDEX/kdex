@@ -1,5 +1,10 @@
 {
+<<<<<<< Updated upstream
   "name": "portfolio-react",
+=======
+  "homepage": "http://zkxdex.github.io/",
+  "name": "Portfolio KDex",
+>>>>>>> Stashed changes
   "version": "0.1.0",
   "private": true,
   "dependencies": {

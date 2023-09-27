@@ -89,6 +89,12 @@
     justify-content: center;
     pointer-events: none;
   }
+
+  .insta, .link{
+    pointer-events: visible;
+  }
+
+  
   
   @media(min-width: 992px) {
     .contact_section .contact_cont {
