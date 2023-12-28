@@ -82,6 +82,13 @@ const About = ({ fullpageState, onMouseEnter, onMouseLeave }) => {
               tags={['C#', 'WPF']} />
 
             <ProjectButton
+              imgUrl="https://i.imgur.com/wrPSSY5.png"
+              title="BluryX"
+              state="In production"
+              description="Bluryx is a Node.js library designed to integrate visual effects into desktop applications. It provides functions to enable blur effects behind windows and to extend the client frame area of windows."
+              tags={['C++', 'TS', 'Python']} />
+
+            <ProjectButton
               imgUrl="https://i.imgur.com/gavSl83.png"
               title="Automated Slide Analysis Platform"
               state="Deployed"
